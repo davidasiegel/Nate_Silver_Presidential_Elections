@@ -30,7 +30,7 @@ To check this, I made figure 2:
 
 This is really the graph I care about (at In[15]).  Each data point is the R^2 of a linear regression of actual vs predicted win rate, for each date in the graph above.  The x-axis is days from the election.  The y-axis is the R^2.  What we see is that the predictions actually get *worse* as we get closer to the election (further to the right on the graph)!  
 
-I'm not sure why this happened here.  Most likely, the data became sparser in most tranches on later dates, which led to more noise.  If I combine a few more datasets I might get better statistics.  Maybe I made a dumb mistake somewhere in the code.
+I'm not sure why this happened here.  Maybe it's a Trump effect (everything became more predictable closer to the election date).  Maybe, the data became sparser in most tranches on later dates, which led to more noise.  If I combine a few more datasets I might get better statistics.  Maybe I made a dumb mistake somewhere in the code.
 
 ## Combining Data From All Candidates Gives Me Similar Results
 
