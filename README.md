@@ -32,7 +32,7 @@ I have no idea why this is.  Maybe people answer polling by the issues then go b
 
 ## Combining Data From All Candidates Gives Me Similar Results
 
-I don't know what else to say about this, I was planning to leave it out because their results are highly correlated but I figured I'd throw it in at the end.
+I don't know what else to say about this, I was planning to leave it out because their results are highly correlated but I figured I'd throw it in at the end.  The bias in the win rate vs predicted rate graph appears to be lower because Clinton's bias points in the opposite direction and the two appear to cancel.  This is misleading, but it's also not really a problem.
 
 ## Concluding Thoughts
 
