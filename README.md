@@ -36,8 +36,8 @@ I don't know what else to say about this, I was planning to leave it out because
 
 ## Concluding Thoughts
 
-At first glance, it looks like Nate's predictions are pretty good, even as you go back in time.  However, there are definitely some weird things going on here so I don't totally trust my analysis.
+At first glance, it looks like Nate's predictions are pretty good, even as you go back in time.  However, there are definitely some weird things going on here so I don't totally trust my analysis.  I did this as quickly as I could, over the course of a couple hours on 4/6/19, so there are likely to be errors.
 
-I would like to see Nate or Nassim or someone else make a more careful analysis along these lines.  The data is out there, you can see the data is nicely cleaned.  Go out there and do it.  I want to know if the predictions are more accurate or less accurate as you go back in time.  They should be less accurate.
+I would like to see Nate or Nassim or someone else make a more careful analysis along these lines.  The data is out there, you can see the data is nicely cleaned.  Get out there and do it.  I want to know if Nates predictions are more accurate or less accurate as you go back in time.  They should be less accurate.  Maybe this election was an anomaly.
 
 The glaring omission in the data posted by Nate Silver is that it doesn't provide confidence intervals.  It's fine if your predictions fluctuate wildly as long as your confidence intervals reflect that.  Ideally I would be checking the variance of the data against the confidence intervals.
