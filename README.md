@@ -43,3 +43,5 @@ At first glance, it looks like Nate's predictions are pretty good, even as you g
 I would like to see Nate or Nassim or someone else make a more careful analysis along these lines.  The data is out there, you can see the data is nicely cleaned.  Get out there and do it.  I want to know if Nate's predictions are more accurate or less accurate as you go back in time.  They should be less accurate.  Maybe this election was an anomaly.
 
 The glaring omission in the data posted by Nate Silver is that it doesn't provide confidence intervals.  It's fine if your predictions fluctuate wildly as long as your confidence intervals reflect that.  Ideally I would be checking the variance of the data against the confidence intervals.
+
+There might be a better way to do this with logistic regression instead of tranches.  I don't have time to think about this right now but if someone comes up with better results feel free to contact me.  Would love to see a more careful and thorough analysis.
