@@ -26,4 +26,16 @@ To check this, I made figure 2:
 
 ## R$^2$ Between Predicted and Win Probability as a Function of Time
 
-This is really the graph I care about (at In[15]).  Each data point is the R^2 of a linear regression of actual vs predicted win rate, for each date in the graph above.  The x-axis is days from the election.  The y-axis is the R^2.  What we see is that the predictions actually get *worse* as we get closer to the election.
+This is really the graph I care about (at In[15]).  Each data point is the R^2 of a linear regression of actual vs predicted win rate, for each date in the graph above.  The x-axis is days from the election.  The y-axis is the R^2.  What we see is that the predictions actually get *worse* as we get closer to the election (further to the right on the graph)!  
+
+I have no idea why this is.  Maybe people answer polling by the issues then go by their guts on election day.  Maybe I screwed something up.  Maybe the data is too sparse and I need to combine a few more datasets.
+
+## Combining Data From All Candidates Gives Me Similar Results
+
+I don't know what else to say about this, I was planning to leave it out because their results are highly correlated but I figured I'd throw it in at the end.
+
+## Concluding Thoughts
+
+I would like to see Nate or Nassim or someone else make a more careful analysis along these lines.  The data is out there, you can see the data is nicely cleaned.  Go out there and do it.  I want to know if the predictions are more accurate or less accurate as you go back in time.  They should be less accurate.
+
+The glaring omission in the posted data (you can see it after the head command at top of my python notebook) is that it doesn't provide confidence intervals.  It's fine if your predictions fluctuate wildly as long as your confidence intervals reflect that. 
