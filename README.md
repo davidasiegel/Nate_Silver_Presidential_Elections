@@ -8,7 +8,7 @@ First, let me apologize.  This is basically the first time I'm using github and 
 
 ## I'll walk you through the python notebook:
 
-To see the results, click on "election_nate_silver.ipynb".  It's a python notebook with code and graphs, made very quickly without much editing.
+To see the results, click on "election_nate_silver.ipynb".  It's a python notebook with code and graphs, made very quickly without much editing.  It might take a couple seconds to load but it should be visible on any computer.
 
 At the top, I load the data, downloaded from here: https://github.com/fivethirtyeight/checking-our-work-data.  I decided to only look at the 2018 election between Trump and Hilary.  And because Trump and Hilary's results were anticorrelated, I decided to look only at Trump's predicted win probability.  At the bottom of the file I looked at both.
 
