@@ -10,7 +10,7 @@ First, let me apologize.  This is basically the first time I'm using github and 
 
 To see the results, click on "election_nate_silver.ipynb".  It's a python notebook with code and graphs, made very quickly without much editing.
 
-At the top, I load the data.  I decided to only look at the 2018 election between Trump and Hilary.  And because Trump and Hilary's results were anticorrelated, I decided to look only at Trump's predicted win probability.  At the bottom of the file I looked at both.
+At the top, I load the data, downloaded from here: https://github.com/fivethirtyeight/checking-our-work-data.  I decided to only look at the 2018 election between Trump and Hilary.  And because Trump and Hilary's results were anticorrelated, I decided to look only at Trump's predicted win probability.  At the bottom of the file I looked at both.
 
 I want to compare the actual win *rate* to the predicted win rate, so I can't look at individual predictions -- I have to look at *groups* of predictions.  To do that, I set up tranches of predicted win probabilities.  Any state for which a candidate is predicted to have a win probability between say 0.1 and 0.2, I put those predictions in one tranch and computed the win rate.  We're judging Nate on his forecasting ability so I threw out the "now-cast" data, which measures something different.  There are only 50 states, so most of these tranches don't have too many data points; I show a histogram in In[8], and there's a peak near 5 measurements per tranche but remember that many of these have two forecast types with the same result.  So the data will be noisy.  I continued on.
 
