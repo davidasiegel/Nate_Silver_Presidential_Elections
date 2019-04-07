@@ -26,4 +26,4 @@ To check this, I made figure 2:
 
 ## R$^2$ Between Predicted and Win Probability as a Function of Time
 
-This is really the graph I care about (at In[15]).  Each data point is the R$^2$ of a linear regression of actual vs predicted win rate, for each date in the graph above.  The x-axis is days from the election.  The y-axis is the R$^2$.  What we see is that the predictions actually get *worse* as we get closer to the election.
+This is really the graph I care about (at In[15]).  Each data point is the R^2 of a linear regression of actual vs predicted win rate, for each date in the graph above.  The x-axis is days from the election.  The y-axis is the R^2.  What we see is that the predictions actually get *worse* as we get closer to the election.
