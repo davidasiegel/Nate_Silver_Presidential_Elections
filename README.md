@@ -1,6 +1,6 @@
 # Nate_Silver_Presidential_Elections
 
-I wanted to know if the predicted win probability matches the actual win rate, as a function of time.  If Nate Silver's results are well-calibrated, then any prediction with a 60% win probability will have roughly 60% wins.  Ideally, not 70% and not 50%.
+I wanted to know if the predicted win probability matches the actual win rate, as a function of time.  If Nate Silver's results are well-calibrated, then any prediction with a 60% win probability will ideally have roughly 60% wins.
 
 How well do his predictions work?
 
