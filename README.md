@@ -18,9 +18,9 @@ If you scroll through the python notebook, the graph at In[14] titled ("Win Rate
 
 I notice two trends here:
 
-One, the outcome win rate was higher than the predicted win rate.  So there's bias -- Trump did better than predicted throughout the course of the polling data.  That's fine.
+One, the outcome win rate was higher than the predicted win rate.  So there's bias -- Trump did better than predicted throughout the course of the polling data.  That's interesting but it's not really what I'm looking for right now.
 
-Two, it seems as if the pink data is more narrowly distributed than the blue or orange.  Is this really true?
+Two, it seems as if the pink data is more narrowly distributed than the blue or orange, which would mean the early predictions did better than the later predictions.  Is this really true?
 
 To check this, I made figure 2:
 
@@ -28,7 +28,7 @@ To check this, I made figure 2:
 
 This is really the graph I care about (at In[15]).  Each data point is the R^2 of a linear regression of actual vs predicted win rate, for each date in the graph above.  The x-axis is days from the election.  The y-axis is the R^2.  What we see is that the predictions actually get *worse* as we get closer to the election (further to the right on the graph)!  
 
-I have no idea why this is.  Maybe people answer polling by the issues then go by their guts on election day.  Maybe I screwed something up.  Maybe the data is too sparse and I need to combine a few more datasets.
+I'm not sure why this happened here.  Most likely, the data became sparser in most tranches on later dates, which led to more noise.  If I combine a few more datasets I might get better statistics.  Maybe I made a dumb mistake somewhere in the code.
 
 ## Combining Data From All Candidates Gives Me Similar Results
 
